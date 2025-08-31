@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دليل شامل للمحاسبة - من القواعد إلى القيود</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'cairo': ['Cairo', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .hljs {
+            background: #f8f9fa;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen font-cairo">
+    <marquee class="bg-indigo-600 text-white py-2 text-xl font-bold" direction="right">
+        دليل شامل للمحاسبة
+    </marquee>
+    <div class="container mx-auto px-4 py-8 max-w-7xl">
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold text-indigo-800 mb-4">دليل شامل للمحاسبة</h1>
+            <p class="text-lg text-gray-700 mb-2">من القواعد الأساسية إلى القيد المحاسبي - دورة كاملة لتعلم المحاسبة</p>
+            <p class="text-sm text-gray-600">شرح مفصل مع أمثلة عملية وقيود محاسبية</p>
+            <div class="w-24 h-1 bg-indigo-500 mx-auto mt-4"></div>
+        </header>
+
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
+            <div class="lg:col-span-1">
+                <div class="bg-white rounded-xl shadow-lg p-6 sticky top-8">
+                    <h2 class="text-xl font-bold text-gray-800 mb-6 border-b pb-2">محتويات الشرح</h2>
+                    <nav class="space-y-2">
+                        <a href="#qawaed" class="block p-3 rounded-lg hover:bg-indigo-100 transition-colors text-gray-700 font-medium text-sm">أهم قواعد المحاسبة</a>
+                        <a href="#tabiaa" class="block p-3 rounded-lg hover:bg-indigo-100 transition-colors text-gray-700 font-medium text-sm">طبيعة الحسابات</a>
+                        <a href="#madian" class="block p-3 rounded-lg hover:bg-indigo-100 transition-colors text-gray-700 font-medium text-sm">الحسابات المدينة</a>
+                        <a href="#dayna" class="block p-3 rounded-lg hover:bg-indigo-100 transition-colors text-gray-700 font-medium text-sm">الحسابات الدائنة</a>
+                        <a href="#hugug" class="block p-3 rounded-lg hover:bg-indigo-100 transition-colors text-gray-700 font-medium text-sm">حقوق المساهمين</a>
+                        <a href="#masarif" class="block p-3 rounded-lg hover:bg-indigo-100 transition-colors text-gray-700 font-medium text-sm">المصروفات</a>
+                        <a href="#iradat" class="block p-3 rounded-lg hover:bg-indigo-100 transition-colors text-gray-700 font-medium text-sm">الإيرادات</a>
+                        <a href="#qawaem" class="block p-3 rounded-lg hover:bg-indigo-100 transition-colors text-gray-700 font-medium text-sm">القوائم المالية</a>
+                        <a href="#qudud" class="block p-3 rounded-lg hover:bg-indigo-100 transition-colors text-gray-700 font-medium text-sm">القيود المحاسبية</a>
+                        <a href="#amthila" class="block p-3 rounded-lg hover:bg-indigo-100 transition-colors text-gray-700 font-medium text-sm">أمثلة عملية</a>
+                        <a href="#al-jard" class="block p-3 rounded-lg hover:bg-indigo-100 transition-colors text-gray-700 font-medium text-sm">الجرد وأنواعه</a>
+                        <a href="#three-rules" class="block p-3 rounded-lg hover:bg-indigo-100 transition-colors text-gray-700 font-medium text-sm">القواعد الثلاثة المهمة</a>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="lg:col-span-3 space-y-8">
+                <section id="qawaed" class="bg-white rounded-xl shadow-lg p-8">
+                    <div class="flex items-center mb-6">
+                        <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>
+                        </div>
+                        <h2 class="text-2xl font-bold text-gray-800 mr-4">أهم قواعد ومبادئ المحاسبة</h2>
+                    </div>
+                    <div class="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+                        <p class="mb-4">المحاسبة لا تعمل بشكل عشوائي، بل تستند إلى مجموعة من المبادئ والقواعد الأساسية التي تضمن الدقة والموثوقية والقابلية للمقارنة. هذه القواعد هي حجر الزاوية لأي نظام محاسبي ناجح.</p>
+                        
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div class="bg-blue-50 border-l-4 border-blue-400 p-4 rounded">
+                                <h4 class="font-bold text-blue-800 mb-2">مبدأ القيد المزدوج</h4>
+                                <p class="text-sm">لكل عملية مالية طرفان، أحدهما <strong>مدين</strong> والآخر <strong>دائن</strong>، ويجب أن يكونا متساويين في القيمة. هذا هو أساس توازن المعادلة المحاسبية.</p>
+                            </div>
+                            <div class="bg-green-50 border-l-4 border-green-400 p-4 rounded">
+                                <h4 class="font-bold text-green-800 mb-2">مبدأ الاعتراف بالإيراد</h4>
+                                <p class="text-sm">يتم تسجيل الإيرادات عند تحققها واكتسابها (عادة عند تقديم الخدمة أو تسليم المنتج)، بغض النظر عن وقت استلام النقد.</p>
+                            </div>
+                            <div class="bg-orange-50 border-l-4 border-orange-400 p-4 rounded">
+                                <h4 class="font-bold text-orange-800 mb-2">مبدأ المقابلة (الربط)</h4>
+                                <p class="text-sm">يجب مقابلة المصروفات بالإيرادات التي ساهمت في تحقيقها خلال نفس الفترة المحاسبية، وذلك لتحديد صافي الربح بدقة.</p>
+                            </div>
+                            <div class="bg-red-50 border-l-4 border-red-400 p-4 rounded">
+                                <h4 class="font-bold text-red-800 mb-2">مبدأ التكلفة التاريخية</h4>
+                                <p class="text-sm">يتم تسجيل الأصول بقيمتها النقدية في تاريخ شرائها (تكلفتها التاريخية)، وتبقى هذه القيمة مسجلة في الدفاتر.</p>
+                            </div>
+                             <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded">
+                                <h4 class="font-bold text-yellow-800 mb-2">فرض الفترة المحاسبية</h4>
+                                <p class="text-sm">يتم تقسيم حياة الشركة إلى فترات زمنية محددة (شهر، ربع سنة، سنة)، ليتم إعداد القوائم المالية بشكل دوري.</p>
+                            </div>
+                             <div class="bg-indigo-50 border-l-4 border-indigo-400 p-4 rounded">
+                                <h4 class="font-bold text-indigo-800 mb-2">فرض الوحدة المحاسبية</h4>
+                                <p class="text-sm">تُعامل الشركة كوحدة اقتصادية منفصلة ومستقلة تماماً عن مُلاكها. لذلك، تُسجل فقط عمليات الشركة.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="tabiaa" class="bg-white rounded-xl shadow-lg p-8">
+                    <div class="flex items-center mb-6">
+                        <div class="w-12 h-12 bg-cyan-100 rounded-full flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-cyan-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>
+                        </div>
+                        <h2 class="text-2xl font-bold text-gray-800 mr-4">طبيعة الحسابات (الزيادة والنقصان)</h2>
+                    </div>
+                    <div class="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-6">
+                        <p>لفهم القيود المحاسبية، يجب أولاً معرفة الطبيعة الأساسية لكل حساب. الطبيعة تحدد ما إذا كان الحساب يزيد في الجانب المدين أم الدائن.</p>
+                        
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-4">🔹 الأصول (طبيعة مدينة):</h3>
+                            <ul class="list-disc list-inside bg-green-50 p-4 rounded-lg text-green-800">
+                                <li>الصندوق والبنك</li>
+                                <li>المدينون (العملاء) وأوراق القبض</li>
+                                <li>مخزون البضائع</li>
+                                <li>المصروفات المدفوعة مقدماً</li>
+                                <li>الأصول الثابتة (أراضي، مباني، معدات)</li>
+                                <li>الأصول غير الملموسة (براءات اختراع، برامج)</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-4">🔹 الالتزامات (طبيعة دائنة):</h3>
+                            <ul class="list-disc list-inside bg-red-50 p-4 rounded-lg text-red-800">
+                                <li>الدائنون (الموردون) وأوراق الدفع</li>
+                                <li>المصروفات المستحقة</li>
+                                <li>القروض قصيرة وطويلة الأجل</li>
+                                <li>الإيرادات غير المكتسبة (المقبوضة مقدماً)</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-4">🔹 حقوق الملكية (طبيعة دائنة):</h3>
+                            <ul class="list-disc list-inside bg-yellow-50 p-4 rounded-lg text-yellow-800">
+                                <li>رأس المال</li>
+                                <li>علاوة إصدار الأسهم</li>
+                                <li>الأرباح المحتجزة</li>
+                                <li>الاحتياطيات</li>
+                                <li>أسهم الخزينة (حساب عكسي – طبيعته مدينة)</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-4">🔹 الإيرادات (طبيعة دائنة):</h3>
+                            <ul class="list-disc list-inside bg-emerald-50 p-4 rounded-lg text-emerald-800">
+                                <li>إيراد المبيعات</li>
+                                <li>إيراد الخدمات</li>
+                                <li>إيراد الإيجار</li>
+                                <li>إيراد الفوائد</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-4">🔹 المصروفات (طبيعة مدينة):</h3>
+                            <ul class="list-disc list-inside bg-orange-50 p-4 rounded-lg text-orange-800">
+                                <li>تكلفة البضاعة المباعة</li>
+                                <li>مصروف الرواتب والأجور</li>
+                                <li>مصروف الإيجار</li>
+                                <li>مصروف الكهرباء والمياه</li>
+                                <li>مصروف إهلاك الأصول</li>
+                                <li>مصروف إطفاء الأصول غير الملموسة</li>
+                                <li>مصروفات التأسيس</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="madian" class="bg-white rounded-xl shadow-lg p-8">
+                    <div class="flex items-center mb-6">
+                        <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
+                            </svg>
+                        </div>
+                        <h2 class="text-2xl font-bold text-gray-800 mr-4">الحسابات المدينة</h2>
+                    </div>
+                    <div class="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+                        <p class="mb-4"><strong>الحسابات المدينة (الأصول المتداولة):</strong> تمثل المبالغ التي تمتلكها الشركة وتتوقع استردادها من العملاء أو الأطراف الأخرى.</p>
+                        
+                        <div class="bg-green-50 border-l-4 border-green-400 p-4 mb-6 rounded">
+                            <p class="font-medium text-green-800">تُسجل في الجانب الأيسر (المدين) من القيد المحاسبي وتُعتبر من الأصول في الميزانية العمومية.</p>
+                        </div>
+
+                        <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-4">أنواع الحسابات المدينة:</h3>
+                        
+                        <div class="overflow-x-auto mb-6">
+                            <table class="w-full border-collapse border border-gray-300">
+                                <thead>
+                                    <tr class="bg-gray-100">
+                                        <th class="border border-gray-300 px-4 py-3 text-right">الحساب</th>
+                                        <th class="border border-gray-300 px-4 py-3 text-right">الوصف</th>
+                                        <th class="border border-gray-300 px-4 py-3 text-right">مثال عملي</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="bg-white">
+                                        <td class="border border-gray-300 px-4 py-3 font-medium">الصندوق</td>
+                                        <td class="border border-gray-300 px-4 py-3">النقد الموجود في الخزينة</td>
+                                        <td class="border border-gray-300 px-4 py-3">5,000 ريال نقداً في صندوق الشركة</td>
+                                    </tr>
+                                    <tr class="bg-gray-50">
+                                        <td class="border border-gray-300 px-4 py-3 font-medium">الحسابات البنكية</td>
+                                        <td class="border border-gray-300 px-4 py-3">الأرصدة في الحسابات البنكية</td>
+                                        <td class="border border-gray-300 px-4 py-3">حساب جاري في البنك برصيد 25,000 ريال</td>
+                                    </tr>
+                                    <tr class="bg-white">
+                                        <td class="border border-gray-300 px-4 py-3 font-medium">العملاء (المدينون)</td>
+                                        <td class="border border-gray-300 px-4 py-3">المبالغ المستحقة من العملاء مقابل مبيعات على الحساب</td>
+                                        <td class="border border-gray-300 px-4 py-3">عميل اشترى بضاعة بقيمة 8,000 ريال على الحساب</td>
+                                    </tr>
+                                    <tr class="bg-gray-50">
+                                        <td class="border border-gray-300 px-4 py-3 font-medium">الأوراق القابلة للتحصيل</td>
+                                        <td class="border border-gray-300 px-4 py-3">شيكات أو سندات قبض مستحقة الدفع</td>
+                                        <td class="border border-gray-300 px-4 py-3">شيك من عميل بقيمة 3,500 ريال يستحق الدفع بعد 30 يوماً</td>
+                                    </tr>
+                                    <tr class="bg-white">
+                                        <td class="border border-gray-300 px-4 py-3 font-medium">السلف للموظفين</td>
+                                        <td class="border border-gray-300 px-4 py-3">المبالغ المسلمة للموظفين لأغراض العمل</td>
+                                        <td class="border border-gray-300 px-4 py-3">سلفة 2,000 ريال لموظف للسفر في مهمة عمل</td>
+                                    </tr>
+                                    <tr class="bg-gray-50">
+                                        <td class="border border-gray-300 px-4 py-3 font-medium">المصروفات المؤجلة</td>
+                                        <td class="border border-gray-300 px-4 py-3">مبالغ دفعت مقدماً لخدمات مستقبلية</td>
+                                        <td class="border border-gray-300 px-4 py-3">دفعت إيجار سنة مقدماً بقيمة 36,000 ريال</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-4">أمثلة على القيد المحاسبي للحسابات المدينة:</h3>
+                        
+                        <div class="bg-gray-800 text-white rounded-lg p-4 mb-6 overflow-x-auto">
+                            <pre><code class="hljs language-sql">/* مثال 1: استلام نقد من عميل */
+الحساب: الصندوق          مدين: 5,000
+الحساب: العملاء         دائن: 5,000
+الوصف: استلام دفعة من عميل على حسابه
+
+/* مثال 2: بيع بضاعة نقداً */
+الحساب: الصندوق          مدين: 10,000
+الحساب: مبيعات           دائن: 10,000
+الوصف: بيع بضاعة نقداً
+
+/* مثال 3: بيع بضاعة على الحساب */
+الحساب: العملاء         مدين: 15,000
+الحساب: مبيعات           دائن: 15,000
+الوصف: بيع بضاعة على الحساب لعميل</code></pre>
+                        </div>
+
+                        <div class="bg-blue-50 p-6 rounded-lg mt-6">
+                            <h4 class="font-semibold text-blue-800 mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                ملاحظات هامة
+                            </h4>
+                            <ul class="space-y-2 text-sm text-blue-700">
+                                <li>• جميع الحسابات المدينة تُسجل في الجانب المدين (الجانب الأيسر)</li>
+                                <li>• تُعتبر من الأصول في الميزانية العمومية</li>
+                                <li>• يجب متابعتها بانتظام لضمان استردادها في الوقت المناسب</li>
+                                <li>• عند تحصيل المبلغ، يقل رصيد الحساب المدين ويزيد رصيد الصندوق أو البنك</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="dayna" class="bg-white rounded-xl shadow-lg p-8">
+                    <div class="flex items-center mb-6">
+                        <div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
+                            </svg>
+                        </div>
+                        <h2 class="text-2xl font-bold text-gray-800 mr-4">الحسابات الدائنة</h2>
+                    </div>
+                    <div class="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+                        <p class="mb-4"><strong>الحسابات الدائنة (الالتزامات المتداولة):</strong> تمثل المبالغ التي تدين بها الشركة للموردين أو الأطراف الأخرى.</p>
+                        
+                        <div class="bg-red-50 border-l-4 border-red-400 p-4 mb-6 rounded">
+                            <p class="font-medium text-red-800">تُسجل في الجانب الأيمن (الدائن) من القيد المحاسبي وتُعتبر من الالتزامات في الميزانية العمومية.</p>
+                        </div>
+
+                        <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-4">أنواع الحسابات الدائنة:</h3>
+                        
+                        <div class="overflow-x-auto mb-6">
+                            <table class="w-full border-collapse border border-gray-300">
+                                <thead>
+                                    <tr class="bg-gray-100">
+                                        <th class="border border-gray-300 px-4 py-3 text-right">الحساب</th>
+                                        <th class="border border-gray-300 px-4 py-3 text-right">الوصف</th>
+                                        <th class="border border-gray-300 px-4 py-3 text-right">مثال عملي</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="bg-white">
+                                        <td class="border border-gray-300 px-4 py-3 font-medium">الموردون (الدائون)</td>
+                                        <td class="border border-gray-300 px-4 py-3">المبالغ المستحقة للموردين مقابل مشتريات على الحساب</td>
+                                        <td class="border border-gray-300 px-4 py-3">شراء بضاعة بقيمة 12,000 ريال من مورد على الحساب</td>
+                                    </tr>
+                                    <tr class="bg-gray-50">
+                                        <td class="border border-gray-300 px-4 py-3 font-medium">الأوراق القابلة للدفع</td>
+                                        <td class="border border-gray-300 px-4 py-3">شيكات أو سندات دفع مستحقة الدفع</td>
+                                        <td class="border border-gray-300 px-4 py-3">إصدار شيك بقيمة 7,500 ريال لمورد يستحق الدفع بعد 60 يوماً</td>
+                                    </tr>
+                                    <tr class="bg-white">
+                                        <td class="border border-gray-300 px-4 py-3 font-medium">الرواتب المستحقة</td>
+                                        <td class="border border-gray-300 px-4 py-3">الأجور التي تم استحقاقها ولكن لم تُدفع بعد</td>
+                                        <td class="border border-gray-300 px-4 py-3">رواتب الموظفين عن شهر ديسمبر لم تُدفع بعد</td>
+                                    </tr>
+                                    <tr class="bg-gray-50">
+                                        <td class="border border-gray-300 px-4 py-3 font-medium">الضرائب المستحقة</td>
+                                        <td class="border border-gray-300 px-4 py-3">الضرائب التي تم استحقاقها ولكن لم تُدفع بعد</td>
+                                        <td class="border border-gray-300 px-4 py-3">ضريبة القيمة المضافة عن الربع الأخير</td>
+                                    </tr>
+                                    <tr class="bg-white">
+                                        <td class="border border-gray-300 px-4 py-3 font-medium">فوائد القروض المستحقة</td>
+                                        <td class="border border-gray-300 px-4 py-3">الفوائد المستحقة على القروض البنكية</td>
+                                        <td class="border border-gray-300 px-4 py-3">فوائد قرض بنكي عن شهر يناير</td>
+                                    </tr>
+                                    <tr class="bg-gray-50">
+                                        <td class="border border-gray-300 px-4 py-3 font-medium">الإيجارات المستحقة</td>
+                                        <td class="border border-gray-300 px-4 py-3">إيجارات المباني أو المعدات التي تم استحقاقها ولكن لم تُدفع</td>
+                                        <td class="border border-gray-300 px-4 py-3">إيجار المكتب عن الشهر الماضي لم يُدفع بعد</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-4">أمثلة على القيد المحاسبي للحسابات الدائنة:</h3>
+                        
+                        <div class="bg-gray-800 text-white rounded-lg p-4 mb-6 overflow-x-auto">
+                            <pre><code class="hljs language-sql">/* مثال 1: شراء بضاعة على الحساب */
+الحساب: المشتريات       مدين: 20,000
+الحساب: الموردون        دائن: 20,000
+الوصف: شراء بضاعة من مورد على الحساب
+
+/* مثال 2: سداد دين للمورد */
+الحساب: الموردون        مدين: 8,000
+الحساب: الصندوق         دائن: 8,000
+الوصف: سداد جزء من المبلغ المستحق للمورد
+
+/* مثال 3: إصدار شيك للمورد */
+الحساب: الموردون        مدين: 15,000
+الحساب: الأوراق القابلة للدفع  دائن: 15,000
+الوصف: إصدار شيك للمورد يستحق الدفع بعد 30 يوماً
+
+/* مثال 4: استحقاق رواتب الموظفين */
+الحساب: المصروفات الراتبية  مدين: 50,000
+الحساب: الرواتب المستحقة    دائن: 50,000
+الوصف: استحقاق رواتب الموظفين عن الشهر</code></pre>
+                        </div>
+
+                        <div class="bg-blue-50 p-6 rounded-lg mt-6">
+                            <h4 class="font-semibold text-blue-800 mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                ملاحظات هامة
+                            </h4>
+                            <ul class="space-y-2 text-sm text-blue-700">
+                                <li>• جميع الحسابات الدائنة تُسجل في الجانب الدائن (الجانب الأيمن)</li>
+                                <li>• تُعتبر من الالتزامات في الميزانية العمومية</li>
+                                <li>• يجب متابعتها بانتظام لتجنب الغرامات والتأخير</li>
+                                <li>• عند السداد، يقل رصيد الحساب الدائن وينقص رصيد الصندوق أو البنك</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="hugug" class="bg-white rounded-xl shadow-lg p-8">
+                    <div class="flex items-center mb-6">
+                        <div class="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg>
+                        </div>
+                        <h2 class="text-2xl font-bold text-gray-800 mr-4">حقوق المساهمين وحقوق الملكية</h2>
+                    </div>
+                    <div class="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+                        <p class="mb-4"><strong>حقوق المساهمين (رأس المال):</strong> تمثل صافي ملكية المالك أو المساهمين في الشركة، وهو الفرق بين إجمالي الأصول وإجمالي الالتزامات.</p>
+                        
+                        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-6 rounded">
+                            <p class="font-medium text-yellow-800">معادلة الميزانية: الأصول = الالتزامات + حقوق المساهمين</p>
+                        </div>
+
+                        <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-4">مكونات حقوق المساهمين:</h3>
+                        
+                        <div class="overflow-x-auto mb-6">
+                            <table class="w-full border-collapse border border-gray-300">
+                                <thead>
+                                    <tr class="bg-gray-100">
+                                        <th class="border border-gray-300 px-4 py-3 text-right">الحساب</th>
+                                        <th class="border border-gray-300 px-4 py-3 text-right">الوصف</th>
+                                        <th class="border border-gray-300 px-4 py-3 text-right">مثال عملي</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="bg-white">
+                                        <td class="border border-gray-300 px-4 py-3 font-medium">رأس المال</td>
+                                        <td class="border border-gray-300 px-4 py-3">المبالغ التي يساهم بها المالك أو المساهمون في الشركة</td>
+                                        <td class="border border-gray-300 px-4 py-3">مالك الشركة أدخل 100,000 ريال كرأس مال عند التأسيس</td>
+                                    </tr>
+                                    <tr class="bg-gray-50">
+                                        <td class="border border-gray-300 px-4 py-3 font-medium">الأرباح المحتجزة</td>
+                                        <td class="border border-gray-300 px-4 py-3">جزء من الأرباح التي تحتفظ بها الشركة بدلاً من توزيعها</td>
+                                        <td class="border border-gray-300 px-4 py-3">احتفظت الشركة بـ 30,000 ريال من الأرباح للتوسع</td>
+                                    </tr>
+                                    <tr class="bg-white">
+                                        <td class="border border-gray-300 px-4 py-3 font-medium">احتياطيات قانونية</td>
+                                        <td class="border border-gray-300 px-4 py-3">مبالغ تُخصص من الأرباح وفقاً للقوانين</td>
+                                        <td class="border border-gray-300 px-4 py-3">خصصت الشركة 10% من الأرباح كاحتياطي قانوني</td>
+                                    </tr>
+                                    <tr class="bg-gray-50">
+                                        <td class="border border-gray-300 px-4 py-3 font-medium">احتياطيات تقييم</td>
+                                        <td class="border border-gray-300 px-4 py-3">مبالغ تُخصص لمواجهة المخاطر المستقبلية</td>
+                                        <td class="border border-gray-300 px-4 py-3">خصصت الشركة 15,000 ريال كاحتياطي لديون معدومة</td>
+                                    </tr>
+                                    <tr class="bg-white">
+                                        <td class="border border-gray-300 px-4 py-3 font-medium">توزيعات الأرباح المستحقة</td>
+                                        <td class="border border-gray-300 px-4 py-3">الأرباح التي تم إقرارها للتوزيع ولكن لم تُدفع بعد</td>
+                                        <td class="border border-gray-300 px-4 py-3">أقر مجلس الإدارة توزيع 25,000 ريال كأرباح</td>
+                                    </tr>
+                                    <tr class="bg-gray-50">
+                                        <td class="border border-gray-300 px-4 py-3 font-medium">الأسهم الممتازة</td>
+                                        <td class="border border-gray-300 px-4 py-3">نوع من الأسهم يمنح حاملها حقوقاً مميزة</td>
+                                        <td class="border border-gray-300 px-4 py-3">أصدرت الشركة 1,000 سهم ممتاز بقيمة 50 ريال للسهم</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-4">أمثلة على القيد المحاسبي لحقوق المساهمين:</h3>
+                        
+                        <div class="bg-gray-800 text-white rounded-lg p-4 mb-6 overflow-x-auto">
+                            <pre><code class="hljs language-sql">/* مثال 1: إدخال رأس مال من المالك */
+الحساب: الصندوق          مدين: 100,000
+الحساب: رأس المال        دائن: 100,000
+الوصف: إدخال رأس مال من المالك عند تأسيس الشركة
+
+/* مثال 2: توزيع أرباح على المساهمين */
+الحساب: توزيعات الأرباح  مدين: 50,000
+الحساب: توزيعات الأرباح المستحقة  دائن: 50,000
+الوصف: إقرار توزيع أرباح على المساهمين
+
+/* مثال 3: تحويل الأرباح إلى احتياطي */
+الحساب: الأرباح المحتجزة  مدين: 20,000
+الحساب: احتياطي التوسع   دائن: 20,000
+الوصف: تحويل جزء من الأرباح إلى احتياطي للتوسع
+
+/* مثال 4: إصدار أسهم جديدة */
+الحساب: الصندوق          مدين: 75,000
+الحساب: رأس المال        دائن: 50,000
+الحساب: فائض رأس المال   دائن: 25,000
+الوصف: إصدار 1,000 سهم بسعر 75 ريال للسهم (القيمة الاسمية 50 ريال)</code></pre>
+                        </div>
+
+                        <div class="bg-blue-50 p-6 rounded-lg mt-6">
+                            <h4 class="font-semibold text-blue-800 mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                ملاحظات هامة
+                            </h4>
+                            <ul class="space-y-2 text-sm text-blue-700">
+                                <li>• حقوق المساهمين تُسجل في الجانب الدائن (الجانب الأيمن)</li>
+                                <li>• تُعتبر من حقوق الملكية في الميزانية العمومية</li>
+                                <li>• تزيد بزيادة رأس المال أو الأرباح أو احتياطيات</li>
+                                <li>• تقل بتوزيع الأرباح أو تكبد الخسائر</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="masarif" class="bg-white rounded-xl shadow-lg p-8">
+                    <div class="flex items-center mb-6">
+                        <div class="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-orange-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                            </svg>
+                        </div>
+                        <h2 class="text-2xl font-bold text-gray-800 mr-4">المصروفات</h2>
+                    </div>
+                    <div class="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+                        <p class="mb-4"><strong>المصروفات:</strong> تمثل التكاليف التي تتكبدها الشركة في عملية تحقيق الإيرادات خلال فترة زمنية معينة.</p>
+                        <div class="bg-orange-50 border-l-4 border-orange-400 p-4 mb-6 rounded">
+                            <p class="font-medium text-orange-800">مبدأ الربط (Matching Principle): يجب تسجيل المصروفات في نفس الفترة التي تم فيها تحقيق الإيرادات المرتبطة بها.</p>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-4">أنواع المصروفات:</h3>
+                        <div class="overflow-x-auto mb-6">
+                            <table class="w-full border-collapse border border-gray-300">
+                                <thead>
+                                    <tr class="bg-gray-100">
+                                        <th class="border border-gray-300 px-4 py-3 text-right">الحساب</th>
+                                        <th class="border border-gray-300 px-4 py-3 text-right">الوصف</th>
+                                        <th class="border border-gray-300 px-4 py-3 text-right">مثال عملي</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="bg-white">
+                                        <td class="border border-gray-300 px-4 py-3 font-medium">مصروفات رواتب</td>
+                                        <td class="border border-gray-300 px-4 py-3">أجور الموظفين والعاملين</td>
+                                        <td class="border border-gray-300 px-4 py-3">دفع رواتب الموظفين بقيمة 60,000 ريال</td>
+                                    </tr>
+                                    <tr class="bg-gray-50">
+                                        <td class="border border-gray-300 px-4 py-3 font-medium">مصروفات إجار</td>
+                                        <td class="border border-gray-300 px-4 py-3">إيجار المباني أو المكاتب</td>
+                                        <td class="border border-gray-300 px-4 py-3">دفع إيجار المكتب الشهري بقيمة 8,000 ريال</td>
+                                    </tr>
+                                    <tr class="bg-white">
+                                        <td class="border border-gray-300 px-4 py-3 font-medium">مصروفات كهرباء وماء</td>
+                                        <td class="border border-gray-300 px-4 py-3">فواتير الكهرباء والمياه</td>
+                                        <td class="border border-gray-300 px-4 py-3">دفع فاتورة الكهرباء بقيمة 900 ريال</td>
+                                    </tr>
+                                    <tr class="bg-gray-50">
+                                        <td class="border border-gray-300 px-4 py-3 font-medium">مصروفات صيانة</td>
+                                        <td class="border border-gray-300 px-4 py-3">تكاليف صيانة الآلات والمعدات</td>
+                                        <td class="border border-gray-300 px-4 py-3">دفع فاتورة صيانة لآلة بقيمة 1,500 ريال</td>
+                                    </tr>
+                                    <tr class="bg-white">
+                                        <td class="border border-gray-300 px-4 py-3 font-medium">مصروفات إهلاك</td>
+                                        <td class="border border-gray-300 px-4 py-3">انخفاض قيمة الأصول الثابتة بمرور الوقت</td>
+                                        <td class="border border-gray-300 px-4 py-3">إهلاك معدات الشركة بقيمة 10,000 ريال</td>
+                                    </tr>
+                                    <tr class="bg-gray-50">
+                                        <td class="border border-gray-300 px-4 py-3 font-medium">مصروفات تسويق</td>
+                                        <td class="border border-gray-300 px-4 py-3">تكاليف الإعلانات والترويج</td>
+                                        <td class="border border-gray-300 px-4 py-3">دفع تكاليف حملة تسويقية بقيمة 5,000 ريال</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-4">أمثلة على القيد المحاسبي للمصروفات:</h3>
+                        
+                        <div class="bg-gray-800 text-white rounded-lg p-4 mb-6 overflow-x-auto">
+                            <pre><code class="hljs language-sql">/* مثال 1: دفع مصروف إيجار */
+الحساب: مصروف الإيجار       مدين: 7,000
+الحساب: الصندوق أو البنك   دائن: 7,000
+الوصف: دفع إيجار المكتب لشهر معين
+
+/* مثال 2: دفع رواتب الموظفين */
+الحساب: مصروف الرواتب       مدين: 30,000
+الحساب: الصندوق أو البنك   دائن: 30,000
+الوصف: دفع رواتب الموظفين عن الشهر
+
+/* مثال 3: شراء قرطاسية نقدًا */
+الحساب: مصروف القرطاسية    مدين: 500
+الحساب: الصندوق           دائن: 500
+الوصف: شراء أدوات مكتبية نقداً</code></pre>
+                        </div>
+                        <div class="bg-blue-50 p-6 rounded-lg mt-6">
+                            <h4 class="font-semibold text-blue-800 mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                ملاحظات هامة
+                            </h4>
+                            <ul class="space-y-2 text-sm text-blue-700">
+                                <li>• المصروفات تُسجل في الجانب المدين (الجانب الأيسر) عند زيادتها</li>
+                                <li>• المصروفات تظهر في قائمة الدخل</li>
+                                <li>• تؤدي زيادة المصروفات إلى تقليل صافي الدخل</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="iradat" class="bg-white rounded-xl shadow-lg p-8">
+                    <div class="flex items-center mb-6">
+                        <div class="w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-emerald-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z" />
+                            </svg>
+                        </div>
+                        <h2 class="text-2xl font-bold text-gray-800 mr-4">الإيرادات</h2>
+                    </div>
+                    <div class="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+                        <p class="mb-4"><strong>الإيرادات:</strong> هي المبالغ التي تحصل عليها الشركة من بيع السلع أو تقديم الخدمات خلال فترة زمنية معينة.</p>
+                        
+                        <div class="bg-emerald-50 border-l-4 border-emerald-400 p-4 mb-6 rounded">
+                            <p class="font-medium text-emerald-800">مبدأ الاعتراف بالإيراد: يتم تسجيل الإيرادات عند اكتسابها، وليس عند استلام النقد.</p>
+                        </div>
+
+                        <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-4">أنواع الإيرادات:</h3>
+                        
+                        <div class="overflow-x-auto mb-6">
+                            <table class="w-full border-collapse border border-gray-300">
+                                <thead>
+                                    <tr class="bg-gray-100">
+                                        <th class="border border-gray-300 px-4 py-3 text-right">الحساب</th>
+                                        <th class="border border-gray-300 px-4 py-3 text-right">الوصف</th>
+                                        <th class="border border-gray-300 px-4 py-3 text-right">مثال عملي</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="bg-white">
+                                        <td class="border border-gray-300 px-4 py-3 font-medium">إيراد المبيعات</td>
+                                        <td class="border border-gray-300 px-4 py-3">المبالغ الناتجة عن بيع البضائع</td>
+                                        <td class="border border-gray-300 px-4 py-3">بيع بضاعة بقيمة 5,000 ريال</td>
+                                    </tr>
+                                    <tr class="bg-gray-50">
+                                        <td class="border border-gray-300 px-4 py-3 font-medium">إيراد الخدمات</td>
+                                        <td class="border border-gray-300 px-4 py-3">المبالغ الناتجة عن تقديم الخدمات</td>
+                                        <td class="border border-gray-300 px-4 py-3">تقديم خدمة استشارية بقيمة 1,500 ريال</td>
+                                    </tr>
+                                    <tr class="bg-white">
+                                        <td class="border border-gray-300 px-4 py-3 font-medium">إيراد الفوائد</td>
+                                        <td class="border border-gray-300 px-4 py-3">المبالغ المكتسبة من الفوائد على الاستثمارات</td>
+                                        <td class="border border-gray-300 px-4 py-3">استلام فوائد بقيمة 200 ريال من وديعة بنكية</td>
+                                    </tr>
+                                    <tr class="bg-gray-50">
+                                        <td class="border border-gray-300 px-4 py-3 font-medium">إيراد الإيجار</td>
+                                        <td class="border border-gray-300 px-4 py-3">المبالغ الناتجة عن تأجير الأصول</td>
+                                        <td class="border border-gray-300 px-4 py-3">تأجير جزء من المكتب بقيمة 3,000 ريال</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-4">أمثلة على القيد المحاسبي للإيرادات:</h3>
+                        
+                        <div class="bg-gray-800 text-white rounded-lg p-4 mb-6 overflow-x-auto">
+                            <pre><code class="hljs language-sql">/* مثال 1: إيراد مبيعات نقداً */
+الحساب: الصندوق أو البنك مدين: 10,000
+الحساب: إيراد المبيعات    دائن: 10,000
+الوصف: إيراد من مبيعات نقدية
+
+/* مثال 2: إيراد خدمات على الحساب */
+الحساب: المدينون         مدين: 8,000
+الحساب: إيراد الخدمات    دائن: 8,000
+الوصف: تقديم خدمات على الحساب لعميل
+
+/* مثال 3: استلام إيجار نقداً */
+الحساب: الصندوق         مدين: 2,500
+الحساب: إيراد الإيجار   دائن: 2,500
+الوصف: استلام إيجار مبنى نقداً</code></pre>
+                        </div>
+                        <div class="bg-blue-50 p-6 rounded-lg mt-6">
+                            <h4 class="font-semibold text-blue-800 mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                ملاحظات هامة
+                            </h4>
+                            <ul class="space-y-2 text-sm text-blue-700">
+                                <li>• الإيرادات تُسجل في الجانب الدائن (الجانب الأيمن) عند زيادتها</li>
+                                <li>• الإيرادات تظهر في قائمة الدخل</li>
+                                <li>• تؤدي زيادة الإيرادات إلى زيادة صافي الدخل</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                
+                <section id="al-jard" class="bg-white rounded-xl shadow-lg p-8">
+                    <div class="flex items-center mb-6">
+                        <div class="w-12 h-12 bg-lime-100 rounded-full flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-lime-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M17 16h.01" />
+                            </svg>
+                        </div>
+                        <h2 class="text-2xl font-bold text-gray-800 mr-4">الجرد وأنواعه</h2>
+                    </div>
+                    <div class="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+                        <p class="mb-4"><strong>الجرد:</strong> هو عملية مطابقة الأرصدة الدفترية للأصول والخصوم مع الواقع الفعلي. يهدف إلى تحديد القيمة الحقيقية للعناصر وتعديل أي فروقات.</p>
+                        
+                        <div class="bg-green-50 border-l-4 border-green-400 p-4 rounded mb-6">
+                            <h4 class="font-bold text-green-800 mb-2">أنواع الجرد:</h4>
+                            <ul class="list-disc list-inside space-y-2">
+                                <li><strong>الجرد الدوري (Periodic Inventory):</strong> يتم الجرد فعليًا في نهاية الفترة المحاسبية فقط، ولا يتم تحديث أرصدة المخزون وتكلفة المبيعات بشكل مستمر.</li>
+                                <li><strong>الجرد المستمر (Perpetual Inventory):</strong> يتم تحديث أرصدة المخزون وتكلفة البضاعة المباعة تلقائيًا بعد كل عملية بيع أو شراء، مما يوفر معلومات دقيقة في أي وقت.</li>
+                            </ul>
+                        </div>
+
+                        <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-4">تطبيق القواعد على الجرد:</h3>
+                        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded mb-6">
+                            <p class="font-medium text-yellow-800">يُطبق على حسابات المخزون وتكلفة المبيعات، وهي حسابات أصول ومصروفات.</p>
+                        </div>
+                        
+                        <div class="bg-gray-800 text-white rounded-lg p-4 mb-6 overflow-x-auto">
+                            <pre><code class="hljs language-sql">/* مثال 1: شراء بضاعة (جرد مستمر) */
+الحساب: المخزون            مدين: 10,000
+الحساب: الصندوق            دائن: 10,000
+الوصف: شراء بضاعة نقدًا
+
+/* مثال 2: بيع بضاعة (جرد مستمر) */
+// القيد الأول: قيد المبيعات
+الحساب: الصندوق            مدين: 15,000
+الحساب: إيراد المبيعات      دائن: 15,000
+الوصف: بيع بضاعة نقدًا
+
+// القيد الثاني: قيد تكلفة البضاعة المباعة
+الحساب: تكلفة المبيعات     مدين: 8,000
+الحساب: المخزون             دائن: 8,000
+الوصف: تخفيض المخزون بتكلفة البضاعة المباعة</code></pre>
+                        </div>
+                    </div>
+                </section>
+                
+                <section id="three-rules" class="bg-white rounded-xl shadow-lg p-8">
+                    <div class="flex items-center mb-6">
+                        <div class="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center">
+                           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.03 12.03 0 003 12c0 2.222 1.251 4.254 3.04 5.618M12 21a9 9 0 005.618-3.04A12.03 12.03 0 0121 12c0-2.222-1.251-4.254-3.04-5.618M12 21a9 9 0 01-5.618-3.04A12.03 12.03 0 003 12c0-2.222 1.251-4.254 3.04-5.618" />
+                            </svg>
+                        </div>
+                        <h2 class="text-2xl font-bold text-gray-800 mr-4">القواعد الثلاثة المهمة </h2>
+                    </div>
+                    <div class="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+                        <p class="mb-4">تعتبر هذه القواعد بمثابة حجر الزاوية للمحاسبة، حيث تحدد كيفية تسجيل العمليات المالية بشكل صحيح.</p>
+                        
+                        <div class="bg-purple-100 border-l-4 border-purple-400 p-4 rounded mb-6">
+                             <h4 class="font-bold text-purple-800 mb-2">القاعدة العامة (المعادلة المحاسبية):</h4>
+                             <p class="font-mono text-lg text-purple-900 leading-normal">الأصول = الخصوم + حقوق الملكية</p>
+                             <p class="text-sm">وبناءً عليها نحدد: متى الحساب يكون مدين ومتى يكون دائن.</p>
+                        </div>
+                        
+                        <div class="space-y-8">
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-800 mb-4 flex items-center">
+                                    <span class="bg-green-100 p-2 rounded-full mr-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-8 8" />
+                                        </svg>
+                                    </span>
+                                    ✅ القاعدة الأولى: الأصول
+                                </h3>
+                                <ul class="list-disc list-inside space-y-2">
+                                    <li>تزيد ← تسجل في **المدين**</li>
+                                    <li>تنقص ← تسجل في **الدائن**</li>
+                                </ul>
+                                <div class="bg-green-50 p-4 rounded-lg mt-4">
+                                    <h4 class="font-semibold text-green-800 mb-2">🔹 مثال: شراء بضاعة نقدًا بـ 5,000</h4>
+                                    <ul class="text-sm space-y-1">
+                                        <li>المخزون (أصل) زاد ← مدين 5,000</li>
+                                        <li>النقدية (أصل) نقصت ← دائن 5,000</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-800 mb-4 flex items-center">
+                                    <span class="bg-red-100 p-2 rounded-full mr-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
+                                        </svg>
+                                    </span>
+                                    ✅ القاعدة الثانية: الخصوم وحقوق الملكية
+                                </h3>
+                                <ul class="list-disc list-inside space-y-2">
+                                    <li>تزيد ← تسجل في **الدائن**</li>
+                                    <li>تنقص ← تسجل في **المدين**</li>
+                                </ul>
+                                <div class="bg-red-50 p-4 rounded-lg mt-4">
+                                    <h4 class="font-semibold text-red-800 mb-2">🔹 مثال: أخذ قرض من البنك 20,000</h4>
+                                    <ul class="text-sm space-y-1">
+                                        <li>النقدية (أصل) زادت ← مدين 20,000</li>
+                                        <li>قرض بنكي (خصوم) زاد ← دائن 20,000</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-800 mb-4 flex items-center">
+                                    <span class="bg-orange-100 p-2 rounded-full mr-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-orange-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
+                                        </svg>
+                                    </span>
+                                    ✅ القاعدة الثالثة: الإيرادات والمصروفات
+                                </h3>
+                                <ul class="list-disc list-inside space-y-2">
+                                    <li>الإيرادات: زيادتها = **دائن** ، نقصها = **مدين**</li>
+                                    <li>المصروفات: زيادتها = **مدين** ، نقصها = **دائن**</li>
+                                </ul>
+                                <div class="bg-orange-50 p-4 rounded-lg mt-4">
+                                    <h4 class="font-semibold text-orange-800 mb-2">🔹 مثال: دفع إيجار 2,000 نقدًا</h4>
+                                    <ul class="text-sm space-y-1">
+                                        <li>مصروف الإيجار زاد ← مدين 2,000</li>
+                                        <li>النقدية نقصت ← دائن 2,000</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-blue-50 p-6 rounded-lg mt-6">
+                            <h4 class="font-semibold text-blue-800 mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                خلاصة القواعد الثلاث
+                            </h4>
+                            <ul class="space-y-2 text-sm text-blue-700">
+                                <li>• **الأصول:** مدين عند الزيادة – دائن عند النقص.</li>
+                                <li>• **الخصوم وحقوق الملكية:** دائن عند الزيادة – مدين عند النقص.</li>
+                                <li>• **الإيرادات:** دائن عند الزيادة.</li>
+                                <li>• **المصروفات:** مدين عند الزيادة.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                
+                <footer class="text-center text-sm text-gray-500 mt-12 border-t pt-6">
+                    <p>© 2025 saeidhm</p>
+                    <p class="mt-2">تمت برمجة هذه الصفحة بواسطة برنامج.</p>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
